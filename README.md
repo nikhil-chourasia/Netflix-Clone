@@ -14,7 +14,7 @@ A fully responsive Netflix Clone built using HTML and CSS.
 - CSS3
 
 ## 🚀 Live Demo
-Check out the live demo here: [(https://nikhil-chourasia.github.io/Netflix-Clone/)]
+Check out the live demo here: https://nikhil-chourasia.github.io/Netflix-Clone/
 
 ## 📂 Installation
 1. Clone the repository:
