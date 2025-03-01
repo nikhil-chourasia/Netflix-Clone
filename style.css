@@ -56,6 +56,12 @@ nav div > :first-child {
     border-radius: 4px;
 }
 
+nav div > :first-child img {
+    filter: invert();
+    height: 16px;
+    margin-right: 8px;
+}
+
 nav div > :nth-child(2) {
     box-sizing: border-box;
     background-color: red;
@@ -294,4 +300,101 @@ nav div > :nth-child(2) {
     transition-duration: 150ms;
     transition-timing-function: ease-in;
     background-color: rgb(70, 70, 70);
+}
+
+.emailsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    gap: 12px;
+}
+
+.emailsection span {
+    color: white;
+}
+
+.emailsection div input {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid rgb(63, 63, 63);
+    width: 562px;
+    border-radius: 4px;
+}
+
+.emailsection div button {
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    border: rgb(229, 9, 20);
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 4px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.emailsection div button img {
+    filter: invert();
+}
+
+footer {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 34px;
+    width: 80vw;
+    margin: auto;
+}
+
+footer span {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer button {
+    background-color: transparent;
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 24px;
+    line-height: 1;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+}
+
+footer button img {
+    filter: invert();
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+}
+
+.grid a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.blank {
+    height: 10vh;
 }
